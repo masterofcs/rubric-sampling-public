@@ -26,9 +26,9 @@ import random
 import numpy as np
 from tqdm import tqdm
 
-from . import blockyToTree
-from . import blocky
-from ...utils import flatten_ast
+from pcfg_utils.models import blockyToTree
+from pcfg_utils.models import blocky
+from utils import flatten_ast
 
 # constants
 DEFAULT_P_DNG_NESTING = 0.1

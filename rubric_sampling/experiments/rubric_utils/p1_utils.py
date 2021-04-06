@@ -5,7 +5,7 @@ from __future__ import print_function
 from __future__ import absolute_import
 
 import os
-from ..utils import DATASETS_ROOT
+from utils import DATASETS_ROOT
 
 # map from integers to feedback labels
 IX_TO_LABEL = {

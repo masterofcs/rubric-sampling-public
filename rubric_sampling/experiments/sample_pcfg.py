@@ -8,8 +8,8 @@ import os
 import sys
 import cPickle
 
-from .pcfg_utils.models.simulate import generateTrajectories
-from .rubric_utils.load_params import get_pcfg_params, get_pcfg_path
+from pcfg_utils.models.simulate import generateTrajectories
+from rubric_utils.load_params import get_pcfg_params, get_pcfg_path
 
 
 if __name__ == "__main__":

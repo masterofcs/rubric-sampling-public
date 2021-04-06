@@ -10,13 +10,8 @@ import torch.nn as nn
 from torch.nn import functional as F
 import torch.nn.utils.rnn as rnn_utils
 
-from .loss import (
-    gaussian_log_pdf,
-    unit_gaussian_log_pdf,
-    bernoulli_log_pdf,
-    categorical_program_log_pdf,
-)
-from .utils import log_mean_exp
+from loss import gaussian_log_pdf,unit_gaussian_log_pdf,bernoulli_log_pdf,categorical_program_log_pdf
+from utils import log_mean_exp
 
 
 class ProgramRNN(nn.Module):

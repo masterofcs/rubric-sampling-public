@@ -15,11 +15,11 @@ import torch.optim as optim
 import torch.utils.data as data
 import torch.nn.functional as F
 
-from .models import ProgramRNN
-from .utils import AverageMeter, save_checkpoint, merge_args_with_dict
-from .datasets import load_dataset
-from .config import default_hyperparams
-from .rubric_utils.load_params import get_label_params, get_max_seq_len
+from models import ProgramRNN
+from utils import AverageMeter, save_checkpoint, merge_args_with_dict
+from datasets import load_dataset
+from config import default_hyperparams
+from rubric_utils.load_params import get_label_params, get_max_seq_len
 
 
 if __name__ == "__main__":

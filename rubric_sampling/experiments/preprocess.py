@@ -10,15 +10,9 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
-from .utils import (
-    train_test_split, 
-    flatten_ast, 
-    removeColors,
-    convert_V2_to_V3,
-    labels_to_numpy,
-    PCFG_UTILS_ROOT,
-)
-from .rubric_utils.load_params import get_label_params, get_codeorg_data_root
+from utils import train_test_split, flatten_ast, removeColors,convert_V2_to_V3,labels_to_numpy,PCFG_UTILS_ROOT
+
+from rubric_utils.load_params import get_label_params, get_codeorg_data_root
 sys.path.append(PCFG_UTILS_ROOT)
 
 

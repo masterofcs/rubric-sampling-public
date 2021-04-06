@@ -12,7 +12,7 @@ from tqdm import tqdm
 from collections import defaultdict
 from torch.utils.data.dataset import Dataset
 
-from .utils import (
+from utils import (
     ZIPF_CLASS,
     PAD_TOKEN,
     UNK_TOKEN,
@@ -23,7 +23,7 @@ from .utils import (
     removeColors,
     PCFG_UTILS_ROOT,
 )
-from .rubric_utils.load_params import get_codeorg_data_root, get_label_params
+from rubric_utils.load_params import get_codeorg_data_root, get_label_params
 sys.path.append(PCFG_UTILS_ROOT)
 
 

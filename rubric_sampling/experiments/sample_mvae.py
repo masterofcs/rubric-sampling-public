@@ -20,8 +20,8 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 
-from .models import ProgramMVAE
-from .utils import (
+from models import ProgramMVAE
+from utils import (
     idx2word, 
     tensor_to_labels, 
     SOS_TOKEN,
@@ -29,7 +29,7 @@ from .utils import (
     PAD_TOKEN,
     UNK_TOKEN,
 )
-from .rubric_utils.load_params import get_label_params
+from rubric_utils.load_params import get_label_params
 
 
 if __name__ == "__main__":
